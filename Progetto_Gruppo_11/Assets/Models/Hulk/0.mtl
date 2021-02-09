@@ -1,0 +1,102 @@
+# Blender MTL File: 'ModelRenderLighting2.blend'
+# Material Count: 7
+
+newmtl 22_skin_0.1_170_170.011
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.651195 0.444322 0.640168
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:\Dropbox (Personal)\Shared Files\XPS\Hulk,Marvel Strike Force\body_d.tga
+map_Bump D:\\Dropbox (Personal)\\Shared Files\\XPS\\Hulk,Marvel Strike Force\\body_n.tga
+map_Ks D:\\Dropbox (Personal)\\Shared Files\\XPS\\Hulk,Marvel Strike Force\\body_s.tga
+map_d D:\\Dropbox (Personal)\\Shared Files\\XPS\\Hulk,Marvel Strike Force\\body_d.tga
+
+newmtl 25_eyes_0.1_0_0.014
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.714243 0.744314 0.789550
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd D:\Dropbox (Personal)\Shared Files\XPS\Hulk,Marvel Strike Force\body_d.tga
+map_Bump D:\\Dropbox (Personal)\\Shared Files\\XPS\\Hulk,Marvel Strike Force\\body_n.tga
+map_Ks D:\\Dropbox (Personal)\\Shared Files\\XPS\\Hulk,Marvel Strike Force\\body_s.tga
+map_d D:\\Dropbox (Personal)\\Shared Files\\XPS\\Hulk,Marvel Strike Force\\body_d.tga
+
+newmtl 25_hair_0.1_0_0.014
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.479863 0.478702 0.560101
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd D:\Dropbox (Personal)\Shared Files\XPS\Hulk,Marvel Strike Force\body_d.tga
+map_Bump D:\\Dropbox (Personal)\\Shared Files\\XPS\\Hulk,Marvel Strike Force\\body_n.tga
+map_Ks D:\\Dropbox (Personal)\\Shared Files\\XPS\\Hulk,Marvel Strike Force\\body_s.tga
+map_d D:\\Dropbox (Personal)\\Shared Files\\XPS\\Hulk,Marvel Strike Force\\body_d.tga
+
+newmtl 25_pants_0.1_0_0
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.663857 0.440669 0.630500
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd D:\Dropbox (Personal)\Shared Files\XPS\Hulk,Marvel Strike Force\body_d.tga
+map_Bump D:\\Dropbox (Personal)\\Shared Files\\XPS\\Hulk,Marvel Strike Force\\body_n.tga
+map_Ks D:\\Dropbox (Personal)\\Shared Files\\XPS\\Hulk,Marvel Strike Force\\body_s.tga
+map_d D:\\Dropbox (Personal)\\Shared Files\\XPS\\Hulk,Marvel Strike Force\\body_d.tga
+
+newmtl 25_teeth_0.1_0_0.009
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.798581 0.646775 0.766820
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd D:\Dropbox (Personal)\Shared Files\XPS\Hulk,Marvel Strike Force\body_d.tga
+map_Bump D:\\Dropbox (Personal)\\Shared Files\\XPS\\Hulk,Marvel Strike Force\\body_n.tga
+map_Ks D:\\Dropbox (Personal)\\Shared Files\\XPS\\Hulk,Marvel Strike Force\\body_s.tga
+map_d D:\\Dropbox (Personal)\\Shared Files\\XPS\\Hulk,Marvel Strike Force\\body_d.tga
+
+newmtl 27_eyesenv_1_0_0.014
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.544059 0.447419 0.640783
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd D:\Dropbox (Personal)\Shared Files\XPS\Hulk,Marvel Strike Force\body_d.tga
+map_Bump D:\\Dropbox (Personal)\\Shared Files\\XPS\\Hulk,Marvel Strike Force\\body_n.tga
+map_Ke D:\\Dropbox (Personal)\\Shared Files\\XPS\\Hulk,Marvel Strike Force\\eye_env.tga
+map_d D:\\Dropbox (Personal)\\Shared Files\\XPS\\Hulk,Marvel Strike Force\\body_d.tga
+refl D:\\Dropbox (Personal)\\Shared Files\\XPS\\Hulk,Marvel Strike Force\\eye_env.tga
+
+newmtl 27_hairenv_1_0_0.011
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.670138 0.776641 0.794731
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd D:\Dropbox (Personal)\Shared Files\XPS\Hulk,Marvel Strike Force\body_d.tga
+map_Bump D:\\Dropbox (Personal)\\Shared Files\\XPS\\Hulk,Marvel Strike Force\\body_n.tga
+map_Ke D:\\Dropbox (Personal)\\Shared Files\\XPS\\Hulk,Marvel Strike Force\\hair_env.dds
+map_d D:\\Dropbox (Personal)\\Shared Files\\XPS\\Hulk,Marvel Strike Force\\body_d.tga
+refl D:\\Dropbox (Personal)\\Shared Files\\XPS\\Hulk,Marvel Strike Force\\hair_env.dds

@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: de588d8687bfce94da76f77d831b8049
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a_23_mesh01Mat
+    second: {fileID: 2100000, guid: 24eeebfba46e4df4d99d1dca821ee393, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: baka01Mat
+    second: {fileID: 2100000, guid: 80cc03eca9a9a204fa512a1035d5dd45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black_1_me01Mat
+    second: {fileID: 2100000, guid: c5b6b14f6494ccd4dba7f192b2da4b80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blu_textur01Mat
+    second: {fileID: 2100000, guid: 5c297ce1b73d48f45a5631a29ac28584, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bron_mesh01Mat
+    second: {fileID: 2100000, guid: eb6c201483cafe94fb7900ae6a33051d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chassis01Mat
+    second: {fileID: 2100000, guid: 90b163bd622b48c4ab228b47b6d3454c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chrome_mes01Mat
+    second: {fileID: 2100000, guid: 5156d174d65eaa54f9924d8d32973e7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: extra01Mat
+    second: {fileID: 2100000, guid: d3831c87aa52cc14da00cc717e9cac04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: extra02Mat
+    second: {fileID: 2100000, guid: 2a824498b786a284f9f1a1bbe482c7fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: forks01Mat
+    second: {fileID: 2100000, guid: d75e33a6cbb2e0b44bd55d6d6bc0da63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: forks_fron01Mat
+    second: {fileID: 2100000, guid: cfa68256890fb6141aa9a973c9c9c924, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: forks_rear01Mat
+    second: {fileID: 2100000, guid: f7a209f504f70f84b872cb269183e288, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: handlebars01Mat
+    second: {fileID: 2100000, guid: fb98c7a18770e68498b52332e0c4329c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hd_far_lig01Mat
+    second: {fileID: 2100000, guid: 81f8abbcfd6d77a41b05a3161a4008bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: headlight_01Mat
+    second: {fileID: 2100000, guid: 034241364c5cc304b94d728fe433e5f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: med_mesh01Mat
+    second: {fileID: 2100000, guid: cd56d4c06b7c8b745956fcbf129af673, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: med_mesh02Mat
+    second: {fileID: 2100000, guid: a1947e335ecdf0f4ebe59639df186f4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mudguard01Mat
+    second: {fileID: 2100000, guid: 297569e72c0f857458175971c2c2673a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pcj_detail01Mat
+    second: {fileID: 2100000, guid: b712a5cee7d37484698af576e40e3158, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pcj_detail02Mat
+    second: {fileID: 2100000, guid: 8b1bef76ec6d4904aa702f6fa50459d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: race_mesh01Mat
+    second: {fileID: 2100000, guid: bec9b06f66ad9ed41b0154dd0b445a51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: race_mesh02Mat
+    second: {fileID: 2100000, guid: ef825ee3101d15d478764d997630a23f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red_textur01Mat
+    second: {fileID: 2100000, guid: 8299c8963996e254bb5662899529c228, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: taillight_01Mat
+    second: {fileID: 2100000, guid: b23f1f8a822bef14f9eff8d56232e88c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vehicle_ge01Mat
+    second: {fileID: 2100000, guid: 276f392c18866bc46a0f19e26f919217, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wheel_fron01Mat
+    second: {fileID: 2100000, guid: b9635d31c8c1a9245ac4a37814cdf122, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wheel_rear01Mat
+    second: {fileID: 2100000, guid: 8b9f7c3d65e4a20458a812da48c94da3, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

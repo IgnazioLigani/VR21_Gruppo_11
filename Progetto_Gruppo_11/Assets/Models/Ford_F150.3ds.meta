@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: c5b1be949ebdee545a3f9771bd5eb635
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150-back_lights
+    second: {fileID: 2100000, guid: 49e95284337ee5840b0c901ffd5f2b77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150-black
+    second: {fileID: 2100000, guid: 43eef5ceaa259f5489d9e169743cc850, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150-chrome
+    second: {fileID: 2100000, guid: e299c301a52eeef43ab06a118bed842b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150-chrome-2
+    second: {fileID: 2100000, guid: 5b5ff0a51a2d89d4dbf2fb7cee5d9b16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150-door_handle
+    second: {fileID: 2100000, guid: 85ba639e4df229a4ca21fcf155984f0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150-exhaustion
+    second: {fileID: 2100000, guid: 919cee4b8ece31d4dba39c3d3a90fd6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150-f150
+    second: {fileID: 2100000, guid: 2e4023b337320474397c4e33dd622f0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150-flatbed
+    second: {fileID: 2100000, guid: 648ba92c3dc5da74a820bade2cc458ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150-ford_logo
+    second: {fileID: 2100000, guid: ef03988afd4ca0f4fa0a8fc108ea0a99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150-fron1
+    second: {fileID: 2100000, guid: 19963cf1c05e0c841aa38f8b0026aa5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150-front_light
+    second: {fileID: 2100000, guid: 09bdb1f4bd0622d4f9e1a612f08f4c9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150-glass
+    second: {fileID: 2100000, guid: b6815ba752da3c843b95563a5fb88471, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150-glass-black
+    second: {fileID: 2100000, guid: d4d7b8c376bb5244688ad806fb00c5d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150-grill_plast
+    second: {fileID: 2100000, guid: 258084c74d7cb4c489b5701683cac4a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150-halogen
+    second: {fileID: 2100000, guid: a06119fcfec0ac746b7a06283e47ccad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150-inside
+    second: {fileID: 2100000, guid: b999d5b083d8ac54f80e74513913c2a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150-mainbody
+    second: {fileID: 2100000, guid: a5d389a33bc3df848ba1780090234f13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150-mainbody-da
+    second: {fileID: 2100000, guid: 19079de61db1f0847adfa469cc6bcc6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150-mirror
+    second: {fileID: 2100000, guid: 5d4a81b7081829843b5a336383065e1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150-plastic
+    second: {fileID: 2100000, guid: 90c5de56aaed65f4eb9138599f86a6a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150-rubber
+    second: {fileID: 2100000, guid: a03ba41889da91a46a63277effac6813, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150-top_light
+    second: {fileID: 2100000, guid: 37c6531a23f780043bdb197517774fa6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150-wheel-alu
+    second: {fileID: 2100000, guid: 02a9b74f096f5ef498b68403e1b6f66c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150-wheel-tire
+    second: {fileID: 2100000, guid: 4ed524de80fae304ab8148f31e3ce9e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150-wheel-tire-
+    second: {fileID: 2100000, guid: 0323f43d308ea8d47a93d6ab9f6c24dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150_wheel-brake
+    second: {fileID: 2100000, guid: 85fb48a665fd12343aae2904263db55f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150_wheel-insid
+    second: {fileID: 2100000, guid: ef827c653b28a634fa1d8822208d6755, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f150_whipers
+    second: {fileID: 2100000, guid: 2f1272e7be8348141a4fa5bb16288321, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

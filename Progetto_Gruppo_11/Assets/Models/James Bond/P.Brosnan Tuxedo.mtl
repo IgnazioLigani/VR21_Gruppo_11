@@ -1,0 +1,90 @@
+# Blender3D MTL File: 
+# Material Count: 8
+newmtl Material.001_P.Brosna_P.Brosnan_tuxedo.png
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.120470 0.120470 0.120470
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd P.Brosnan_tuxedo.png
+
+
+newmtl Material_007_PierceBrosnan_hai
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.122353 0.122353 0.122353
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd 007_PierceBrosnan_hair.png
+
+
+newmtl Material.002_P.Brosna_P.Brosnan_tuxedo_hand
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.030118 0.030118 0.030118
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd P.Brosnan_tuxedo_hand.png
+
+
+newmtl Material.003_bond_pie_bond_pierce_suit_face
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.097882 0.097882 0.097882
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd bond pierce_suit_face_v00.dds
+
+
+newmtl Material.005_bond_pie_bond_pierce_suit_face
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.097882 0.097882 0.097882
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd bond pierce_suit_face_v00.dds
+
+
+newmtl Material_P.Brosnan_tu_P.Brosnan_tuxedo_acc.
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.120470 0.120470 0.120470
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd P.Brosnan_tuxedo_acc.png
+
+
+newmtl Material.006_bond_pie_bond_pierce_suit_face
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.052706 0.052706 0.052706
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd bond pierce_suit_face_v00.dds
+
+
+newmtl Material.004_bond_pie_bond_pierce_suit_eye.
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.052706 0.052706 0.052706
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd bond pierce_suit_eye.png
+
+
