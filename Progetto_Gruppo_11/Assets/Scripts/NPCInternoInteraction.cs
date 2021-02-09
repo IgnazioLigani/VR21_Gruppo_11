@@ -16,6 +16,7 @@ public class NPCInternoInteraction : Interactable
     [SerializeField] private GameObject _dContinue;
 
     private Boolean startDialog = true;
+    private Boolean inDialog = false;
     private int n = 0;
 
     private Boolean interact = false;
@@ -24,15 +25,29 @@ public class NPCInternoInteraction : Interactable
     protected void Start()
     {
         _dBox.SetActive(false);
-
+        _dContinue.SetActive(false);
         if (_dialog.Length == 0)
             startDialog = false;
     }
 
     void Update()
     {
+        //Debug.Log(gameObject.name +" _interact:  "+interact);
         if (interact) 
         {
+            /*Debug.Log(gameObject.name + " _interact:  " + interact);
+            if (!_dContinue.activeSelf && n < _dialog.Length - 1)
+            {
+                Dialogue();
+            }
+
+            
+            if (Input.GetKeyDown(KeyCode.Space) && _dContinue.activeSelf)
+            {
+                Dialogue();
+            }*/
+                
+
             Dialogue();
 
             if (!IsTargetWithinDistance(_maxLookDistance))
@@ -55,16 +70,43 @@ public class NPCInternoInteraction : Interactable
 
     public override void Interact(GameObject caller)
     {
-        interact = true;
-        Debug.Log("ho premuto e sto interaggendo");
+        interact = !interact;
+        //Debug.Log("Interact " + interact);
     }
 
     private void Dialogue()
     {
         if (startDialog)
         {
+            
             _dBox.SetActive(true);
-            Debug.Log("sono in dialogue");
+            //Debug.Log("Dialogue");
+            /*if (n < _dialog.Length - 1)
+            {
+                StartCoroutine(TypingLetters());
+                _dContinue.SetActive(true);
+            }
+            else
+            {
+                StartCoroutine(TypingLetters());
+                _dContinue.SetActive(false);
+            }
+            _dText.text = _dialog[n];
+            if (Input.GetKeyDown(KeyCode.Space) && n < _dialog.Length - 1)
+            {
+                n++;
+            }*/
+
+            /*if (Input.GetKeyDown(KeyCode.Space) && n < _dialog.Length - 1)
+            {
+                StartCoroutine(TypingLetters());
+                n++;
+            }*/
+
+
+
+            //Originale
+            //Debug.Log("Dialogue");
             if (n < _dialog.Length - 1)
             {
                 _dContinue.SetActive(true);
@@ -74,12 +116,26 @@ public class NPCInternoInteraction : Interactable
                 _dContinue.SetActive(false);
             }
             _dText.text = _dialog[n];
-            Debug.Log("L'NPC dice: " + _dialog[n]);
             if (Input.GetKeyDown(KeyCode.Space) && n < _dialog.Length - 1)
             {
                 n++;
             }
         }
 
+    }
+
+    public override bool GetInteract()
+    {
+        return interact;
+    }
+
+    public IEnumerator TypingLetters()
+    {
+        foreach(char letter in _dialog[n].ToCharArray())
+        {
+            _dText.text += letter;
+            //Debug.Log(letter); 
+            yield return new WaitForSeconds(0.03f);
+        }
     }
 }

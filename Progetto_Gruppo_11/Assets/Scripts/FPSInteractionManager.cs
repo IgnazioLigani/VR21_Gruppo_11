@@ -11,6 +11,7 @@ public class FPSInteractionManager : MonoBehaviour
     [SerializeField] private Image _target;
 
     private Interactable _pointingInteractable;
+    private Interactable _currentInteractable;          //aggiunto ora
     private Grabbable _pointingGrabbable;
 
     private CharacterController _fpsController;
@@ -52,7 +53,35 @@ public class FPSInteractionManager : MonoBehaviour
             if (_pointingInteractable)
             { 
                 if(Input.GetMouseButtonDown(0))
-                    _pointingInteractable.Interact(gameObject);
+                {
+                    if (_currentInteractable != _pointingInteractable) 
+                    {
+                        if (_currentInteractable == null)
+                        {
+                            _currentInteractable = _pointingInteractable;
+                            _pointingInteractable.Interact(gameObject);
+                            //Debug.Log("_currentInteractable==null");
+                            //Debug.Log("è attivo " + _pointingInteractable);
+                        }
+                        else
+                        {
+                            //Debug.Log("_currenteInteractable!=_pointingInteractable");
+                            if (_currentInteractable.GetInteract())
+                                _currentInteractable.Interact(gameObject);
+                            _pointingInteractable.Interact(gameObject);
+                            //Debug.Log("era attivo " + _currentInteractable + " adesso è attivo " + _pointingInteractable);
+                            _currentInteractable =_pointingInteractable;
+                            
+                        }       
+                    }
+                    else
+                    {
+                        if (!_currentInteractable.GetInteract())
+                            _currentInteractable.Interact(gameObject);
+                        //Debug.Log("_currenteInteractable==_pointingInteractable");
+                    }
+                    //_pointingInteractable.Interact(gameObject);
+                }
             }
 
             //Check if is grabbable
@@ -101,7 +130,7 @@ public class FPSInteractionManager : MonoBehaviour
     {
         _grabbedObject = grabbable;
         grabbable.transform.SetParent(_fpsCameraT);
-
+        //Debug.Log("posizione dell'oggetto preso"+ grabbable.transform.position);
         _target.enabled = false;
     }
 

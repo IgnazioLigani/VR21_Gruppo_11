@@ -8,6 +8,10 @@ using UnityEngine.UI;
 
 public class NPCWalkInteraction : Interactable
 {
+    public override bool GetInteract()
+    {
+        return false;
+    }
     public enum NPCState
     {
         Walk,
@@ -187,32 +191,20 @@ public class NPCWalkInteraction : Interactable
         if (startDialog) 
         {
             _dBox.SetActive(true);
-            if (_dialog.Length > 0)
+            //Debug.Log("Dialogue");
+            if (n < _dialog.Length - 1)
             {
-                if (n < _dialog.Length - 1)
-                {
-                    _dContinue.SetActive(true);
-                }
-                else
-                {
-                    _dContinue.SetActive(false);
-                }
-
-                /*foreach(char letter in _dialog[n].ToCharArray()) 
-                {
-                    _dText.text += letter;
-                }*/
-                _dText.text = _dialog[n];
-                if (Input.GetKeyDown(KeyCode.Space) && n < _dialog.Length - 1)
-                {
-                    n++;
-                }
-
+                _dContinue.SetActive(true);
             }
             else
             {
                 _dContinue.SetActive(false);
-                _dText.text = _dialog[0];
+            }
+            _dText.text = _dialog[n];
+            //Debug.Log("L'NPC dice: " + _dialog[n]);
+            if (Input.GetKeyDown(KeyCode.Space) && n < _dialog.Length - 1)
+            {
+                n++;
             }
         }
     }

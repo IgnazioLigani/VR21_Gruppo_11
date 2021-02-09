@@ -9,6 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2747307375070702014}
+  - component: {fileID: 3651036916695410111}
+  - component: {fileID: 4908779987859691979}
+  - component: {fileID: 8482399620061052342}
+  - component: {fileID: 956829750567565193}
   m_Layer: 0
   m_Name: Ascia Shining
   m_TagString: Untagged
@@ -23,14 +27,73 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3272908758712726276}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 37.032475, y: 34.891174, z: -117.73038}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.13173, y: 0.13173, z: 0.13173}
   m_Children:
   - {fileID: 7388608792929582160}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &3651036916695410111
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3272908758712726276}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &4908779987859691979
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3272908758712726276}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.879287, y: 1.9374411, z: 13.387622}
+  m_Center: {x: -2.9797254, y: 0.87048125, z: 6.1938105}
+--- !u!65 &8482399620061052342
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3272908758712726276}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 30.159428, y: 1.9655534, z: 5.8733172}
+  m_Center: {x: -20.306492, y: 0.84972394, z: 6.624364}
+--- !u!114 &956829750567565193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3272908758712726276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa9432d57c7c37b4698ae965dcc36fc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _infoBox: {fileID: 0}
+  _infoText: {fileID: 0}
+  _dialog: 
+  _distanzaDallaCamera: {x: 0, y: 0, z: 1}
+  _rotate: {x: 0, y: 0, z: 0}
 --- !u!1 &3388644503413165837
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,7 +277,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5215466040853175393}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -247,8 +310,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8705430380033974814}
-  m_LocalRotation: {x: -0.6593458, y: 0, z: -0, w: 0.7518398}
-  m_LocalPosition: {x: 17.6849, y: -6.41225, z: 0.661417}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2153210706998152365}

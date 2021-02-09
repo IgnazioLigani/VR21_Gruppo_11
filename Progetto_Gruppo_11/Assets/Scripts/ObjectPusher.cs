@@ -3,7 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ObjectPusher : Interactable
-{
+{   
+    public override bool GetInteract()
+    {
+        return false;
+    }
+
     [SerializeField] private float _pushForce;
     private Rigidbody _rigidbody;
 

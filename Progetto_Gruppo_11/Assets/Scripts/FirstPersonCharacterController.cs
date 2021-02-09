@@ -32,7 +32,7 @@ public class FirstPersonCharacterController : MonoBehaviour
     {
         UpdateCursor();
 
-        if(Cursor.lockState == CursorLockMode.None)
+        if (Cursor.lockState == CursorLockMode.None)
             return;
 
         //Ground Check
@@ -77,4 +77,9 @@ public class FirstPersonCharacterController : MonoBehaviour
         if (Cursor.lockState == CursorLockMode.Locked && Input.GetKeyDown(KeyCode.Escape))
             Cursor.lockState = CursorLockMode.None;
     }
+
+    public void SetSpeed(float speed)
+    {
+        _speed = speed;
+    } 
 }

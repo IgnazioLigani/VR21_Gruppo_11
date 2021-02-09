@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4448735363568032329}
   - component: {fileID: 4448735363568032330}
   m_Layer: 0
-  m_Name: Megafono 1
+  m_Name: Megafono
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,13 +28,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4448735363568032326}
-  m_LocalRotation: {x: 0.56850284, y: 0.03608799, z: 0.09115246, w: 0.81681913}
-  m_LocalPosition: {x: 39, y: 0.072, z: 31.73}
-  m_LocalScale: {x: 0.098264754, y: 0.098264754, z: 0.098264754}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 67.242004, y: 24.855001, z: 29.407001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4448735363568032324
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -124,3 +124,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa9432d57c7c37b4698ae965dcc36fc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _infoBox: {fileID: 0}

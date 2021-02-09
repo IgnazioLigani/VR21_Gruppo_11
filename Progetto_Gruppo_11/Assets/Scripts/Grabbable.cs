@@ -6,6 +6,8 @@ public abstract class Grabbable : MonoBehaviour
 {
     protected Transform _originalParent;
 
+    
+
     public Transform OriginalParent
     {
         get => _originalParent;

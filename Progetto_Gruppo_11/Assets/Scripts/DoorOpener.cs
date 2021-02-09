@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class DoorOpener : Interactable
 {
-    [SerializeField] private Door _door;
+    public override bool GetInteract()
+    {
+        return false;
+    }
+
+       [SerializeField] private Door _door;
 
     private Collider _interactableCollider;
 
@@ -33,6 +38,4 @@ public class DoorOpener : Interactable
     {
         _interactableCollider.enabled = true;
     }
-
-
 }

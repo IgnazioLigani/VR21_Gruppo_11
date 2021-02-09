@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1079011244522604405}
   - component: {fileID: 4131683874308819152}
   - component: {fileID: 2211909386848435226}
-  - component: {fileID: 7841811500698743803}
+  - component: {fileID: 3341810836894524698}
   m_Layer: 8
   m_Name: Spiazzo
   m_TagString: Untagged
@@ -80,8 +80,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &7841811500698743803
-MeshCollider:
+--- !u!65 &3341810836894524698
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -90,7 +90,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7513297493162946847, guid: a4f3c952531bad9468955106609e9c3c, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 5, y: 0.099999994, z: 5}
+  m_Center: {x: 0, y: 0.049999997, z: 0}
